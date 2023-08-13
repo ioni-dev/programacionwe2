@@ -18,7 +18,7 @@
         <h2>Registro de Condómino</h2>
         <form action="procesar_registro.php" method="post" class="registro-formulario">
             <label for="IDUsuario">ID de Usuario:</label>
-            <input type="number" id="IDUsuario" name="IDUsuario" required><br><br>
+            <input type="text" id="IDUsuario" name="IDUsuario" required><br><br>
             
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required><br><br>

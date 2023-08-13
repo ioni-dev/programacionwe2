@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  background-color: #333;
+  list-style-type: none;
+  padding: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+main {
+  text-align: center;
+  margin: 50px 0;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mensaje-bienvenida {
+  color: blue;
+}
+
+.registro-formulario {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.registro-formulario input, .registro-formulario select {
+  margin-bottom: 20px;
+}
+
+.registro-formulario input[type="submit"] {
+  width: 150px;
+}
